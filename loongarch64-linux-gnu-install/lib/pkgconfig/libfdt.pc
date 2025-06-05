@@ -1,0 +1,9 @@
+prefix=/home/ron/dev/pscgdebos-external-projects-build/dtc-static-builds/loongarch64-linux-gnu-install
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libfdt
+Description: Flat Device Tree manipulation
+Version: 1.7.2
+Libs: -L${libdir} -lfdt
+Cflags: -I${includedir}
