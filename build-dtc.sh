@@ -20,6 +20,7 @@ ARCHS[riscv64-linux-gnu]=riscv
 ARCHS[arm-linux-gnueabi]=arm
 ARCHS[arm-linux-gnueabihf]=arm
 ARCHS[i686-linux-gnu]=i386
+ARCHS[loongarch64-linux-gnu]=longarch
 
 : ${MORE_CONFIGURE_FLAGS=""}
 : ${MORE_TUPPLES=""}
